@@ -1,0 +1,4 @@
+jocker_venv/
+.env
+__pycache__/
+.idea/

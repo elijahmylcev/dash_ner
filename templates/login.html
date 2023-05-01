@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AnalyticsНериэлт</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='index-style.css') }}">
+</head>
+<body>
+	<header>
+		<img src="../static/logo.svg" alt="логотип вашего приложения">
+		<h1>Аналитическое приложение компании Нериэлт</h1>
+	</header>
+	<main>
+		<form class="form__login" action="" method="post">
+			<h2>Войти</h2>
+			<div class="form__input">
+				<label for="username">Имя пользователя:</label>
+				<input type="text" id="username" name="username">
+			</div>
+			<div class="form__input">
+				<label for="password">Пароль:</label>
+				<input type="password" id="password" name="password">
+			</div>
+			<input class="submit" type="submit" value="Login">
+		</form>
+	</main>
+	<footer>
+		<p>© Все права защищены компанией Нериэлт</p>
+	</footer>
+</body>
+</html>
